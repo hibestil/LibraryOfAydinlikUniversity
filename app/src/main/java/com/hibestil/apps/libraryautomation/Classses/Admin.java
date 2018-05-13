@@ -1,5 +1,8 @@
 package com.hibestil.apps.libraryautomation.Classses;
 
+import android.annotation.SuppressLint;
+
+@SuppressLint("ParcelCreator")
 public class Admin extends User {
     private String name;
     private Kiosk kiosk;

@@ -1,8 +1,9 @@
 package com.hibestil.apps.libraryautomation.Classses;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class BorrowOperation {
+public class BorrowOperation implements Serializable {
     private Date borrowDate;
     private Date returnDate;
     private Item item;
@@ -28,5 +29,37 @@ public class BorrowOperation {
     public double calculatePenalty(){
         // TODO: Penalty hesaplaması formülasyonu
         return 0;
+    }
+
+    public Date getBorrowDate() {
+        return borrowDate;
+    }
+
+    public void setBorrowDate(Date borrowDate) {
+        this.borrowDate = borrowDate;
+    }
+
+    public Date getReturnDate() {
+        return returnDate;
+    }
+
+    public void setReturnDate(Date returnDate) {
+        this.returnDate = returnDate;
+    }
+
+    public Item getItem() {
+        return item;
+    }
+
+    public void setItem(Item item) {
+        this.item = item;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

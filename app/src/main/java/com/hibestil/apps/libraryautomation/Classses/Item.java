@@ -1,10 +1,11 @@
 package com.hibestil.apps.libraryautomation.Classses;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Item {
+public class Item implements Serializable {
     private User owner;
     private String itemId;
     private String itemName;

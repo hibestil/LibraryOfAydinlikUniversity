@@ -1,10 +1,11 @@
 package com.hibestil.apps.libraryautomation.Classses;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class User {
+public class User implements Serializable{
     private String cardNo;
     private String name;
     private String userType;

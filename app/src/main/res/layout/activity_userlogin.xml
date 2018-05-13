@@ -21,15 +21,15 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Card ID Number" />
+            tools:text="Card ID Number" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/scan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Scan" />
