@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">LibraryAutomation</string>
+    <string name="app_name">Kütüphane Otomasyonu</string>
     <string name="title_activity_loan">LoanActivity</string>
 </resources>
